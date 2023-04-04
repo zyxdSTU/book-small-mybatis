@@ -10,7 +10,7 @@
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url"
-                  value="jdbc:mysql://10.5.24.98:3306/dp?useUnicode=true&amp;characterEncoding=UTF-8&amp;allowMultiQueries=true&amp;serverTimezone=Asia/Shanghai&amp;useSSL=false"/>
+                  value="jdbc:mysql://10.5.24.98:3306/xxl_job?useUnicode=true&amp;characterEncoding=UTF-8&amp;allowMultiQueries=true&amp;serverTimezone=Asia/Shanghai&amp;useSSL=false"/>
                 <property name="username" value="root"/>
                 <property name="password" value="Zhejianglab@123"/>
             </dataSource>
