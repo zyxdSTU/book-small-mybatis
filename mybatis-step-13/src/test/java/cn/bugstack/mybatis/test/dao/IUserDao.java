@@ -1,5 +1,6 @@
 package cn.bugstack.mybatis.test.dao;
 
+import cn.bugstack.mybatis.annotations.Delete;
 import cn.bugstack.mybatis.annotations.Insert;
 import cn.bugstack.mybatis.annotations.Select;
 import cn.bugstack.mybatis.annotations.Update;
@@ -33,7 +34,7 @@ public interface IUserDao {
             "VALUES (#{userId}, #{userName}, #{userHead}, now(), now())")
     void insertUserInfo(User req);
 
-    @Insert("DELETE FROM user WHERE userId = #{userId}")
+    @Delete("DELETE FROM user WHERE userId = #{userId}")
     int deleteUserInfoByUserId(String userId);
 
 }
